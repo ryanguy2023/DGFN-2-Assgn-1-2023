@@ -13,7 +13,13 @@ def test_rectangle_volume():
     assert rectangle_volume(2, 3, 4) == 24  # Expected result is 24
     assert rectangle_volume(4, 5, 6) == 120  # Expected result is 120
 
+#calucate the area of a circle 
+def test_circle_area():
+    assert round(circle_area(2)) == 13  # Expected result is 12.57 (rounded)
+    assert round(circle_area(3)) == 28  # Expected result is 28.27 (rounded)
+
 if __name__ == "__main__":
     test_rectangle_area()
     test_rectangle_volume()
+    test_circle_area()
     # Call other test functions
