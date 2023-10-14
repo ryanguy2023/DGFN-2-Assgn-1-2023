@@ -1,6 +1,5 @@
-# main
-#DGFN 2 Assgn 1 2023
-#ryan Groskopf
+# DGFN 2 Assgn 1 2023
+# Ryan Groskopf
 #this pytrest the Area and the Volume of the asssinment
 from A_V_calc_starter import rectangle_area, rectangle_volume
 
