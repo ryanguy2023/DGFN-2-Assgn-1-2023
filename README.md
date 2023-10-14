@@ -1,7 +1,7 @@
 # DGFN 2 Assgn 1 2023
 # Ryan Groskopf
 #this pytrest the Area and the Volume of the asssinment
-from A_V_calc_starter import rectangle_area, rectangle_volume
+from A_V_calc_starter import rectangle_area, rectangle_volume, Triangle_Area
 
 #this one tests for Area of a rectangle
 def test_rectangle_area():
@@ -12,8 +12,13 @@ def test_rectangle_area():
 def test_rectangle_volume():
     assert rectangle_volume(2, 3, 4) == 24  # Expected result is 24
     assert rectangle_volume(4, 5, 6) == 120  # Expected result is 120
+    
+def test_Triangle_Area():
+    assert Triangle_Area(3, 4) == 6.0  # Expected result is 6.0
+    assert Triangle_Area(5, 12) == 30.0  # Expected result is 30.0
 
 if __name__ == "__main__":
     test_rectangle_area()
     test_rectangle_volume()
+    test_Triangle_Area()
     # Call other test functions
